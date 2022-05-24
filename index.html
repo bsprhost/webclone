@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap">
+        <title>Boteco Do Brasil</title>
+    </head>
+    <body>
+        <header class="header"><h1></h1></header>
+        <section id="top-ribbon"></section>
+        <nav id="nav-bar">
+            <ul class="parent-menu">
+                <li><a href="#">HOME</a></li>
+                <li><a href="#">MENUS</a></li>
+                <li><a href="#">BOOK NOW</a>
+                    <ul class="sub-menu">
+                        <li><a href="#">BOOK EDINBURGH</a></li>
+                        <li><a href="#">BOOK GLASGOW</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">SPORTS</a></li>
+                <li><a href="#">ORDER ONLINE</a>
+                    <ul class="sub-menu">
+                        <li><a href="#">GLASGOW</a></li>
+                        <li><a href="#">EDINBURGH</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">LOCATIONS</a>
+                    <ul class="sub-menu">
+                        <li><a href="#">GLASGOW</a></li>
+                        <li><a href="#">EDINBURGH</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">CONTACT US</a>
+                    <ul class="sub-menu">
+                        <li><a href="#">PRIVATE ROOMS</a></li>
+                        <li><a href="#">JOBS</a></li>
+                        <li><a href="#">LOST & FOUND</a></li>
+                        <li><a href="#">ABOUT US</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+        <section id="bottom-ribbon"></section>
+        
+        <main class="main">
+            <div id="venue-loc1">Boteco Do Brasil Glasgow</div>
+                <p>
+                    A Latin Quarter in Merchant City<br>
+                    62 Trongate Glasgow, G1 5EP<br>
+                    +44 7772 847311<br>
+                    management@botecodobrasil.com<br>
+                    <br><br>
+                </p>
+            <div id="sep-venues"></div>
+            <div id="venue-loc2">Boteco Do Brasil Edinburgh</div>
+                <p>
+                    A Great Taste of Brazil...<br>
+                    47 Lothian Street Edinburgh, EH1 1HB<br>
+                    +44 7494 077565<br>
+                    eh1@botecodobrasil.com<br>
+                </p>
+            <br>
+            <form action="/action_page.php">
+                <label for="dial-codes">Join our mailing list<br>
+                    Never miss an update:</label>
+                    <input type="text" id="cntk-name" name="cntk-name">
+                <section>
+                    <select id="dial-codes" name="dial-codes">
+                        <option value="+44">+44</option>
+                        <option value="+86"> +86</option>
+                        <option value="+1"> +1</option>
+                        <option value="+55"> +55</option>
+                    </select>
+                    <input type="text" id="phone-no" name="phone-no">
+                </section>
+                <input type="text" id="email" name="email">
+                <input type="button" id="subscribe">
+            </form>
+        </main>
+    </body>
+</html>
